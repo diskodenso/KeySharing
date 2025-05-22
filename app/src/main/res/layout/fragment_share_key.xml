@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Anzeige deines öffentlichen Keys -->
+    <TextView
+        android:id="@+id/tvOwnKeyHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/own_key_header"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    <!-- Abstand -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <!-- Dropdown für Übertragungsmethode -->
+    <Spinner
+        android:id="@+id/spinnerTransferMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/transfer_methods"
+        android:prompt="@string/transfer_method_prompt" />
+
+    <!-- Abstand -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <!-- Button „Key teilen“ -->
+    <Button
+        android:id="@+id/btnShareKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share_key_button" />
+
+</LinearLayout>

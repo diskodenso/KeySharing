@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_share_key">
+
+    <!-- Share Key–Tab -->
+    <fragment
+        android:id="@+id/navigation_share_key"
+        android:name="com.keysharing.ui.ShareKeyFragment"
+        android:label="@string/title_share_key"
+        tools:layout="@layout/fragment_share_key" />
+
+    <!-- Dashboard–Tab -->
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.keysharing.ui.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <!-- Notifications–Tab -->
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.keysharing.ui.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+</navigation>

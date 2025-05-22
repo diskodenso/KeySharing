@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App-Name -->
+    <string name="app_name">KeySharing</string>
+
+    <!-- KeySharing-spezifische Strings -->
+    <!-- Share Key–Tab -->
+    <string name="own_key_header">Mein Public Key: keiner hinterlegt</string>
+    <string name="transfer_method_prompt">Übertragungsmethode wählen</string>
+    <string name="share_key_button">Key teilen</string>
+    <string name="title_share_key">Share Key</string>
+
+    <!-- Dashboard–Tab -->
+    <string name="dashboard_header">Empfangene Public Keys</string>
+    <string name="title_dashboard">Dashboard</string>
+
+    <!-- Notifications–Tab -->
+    <string name="notifications_header">Benachrichtigungen</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
