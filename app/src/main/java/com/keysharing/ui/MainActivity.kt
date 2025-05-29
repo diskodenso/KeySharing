@@ -1,4 +1,5 @@
-package com.keysharing.ui  // passe das Package auf deins an
+// File: app/src/main/java/com/keysharing/ui/MainActivity.kt
+package com.keysharing.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +9,7 @@ import com.keysharing.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

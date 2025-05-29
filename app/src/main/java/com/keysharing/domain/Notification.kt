@@ -1,20 +1,16 @@
+// File: app/src/main/java/com/keysharing/data/entity/DbNotificationEntity.kt
 package com.keysharing.domain
 
-import com.keysharing.domain.NotificationType
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 
-/**
- * Domain Model für Notifications im Notification-Tab.
- *
- * @property id Eindeutige ID der Notification.
- * @property message Der sichtbare Text der Benachrichtigung.
- * @property type Typ der Benachrichtigung (Request, Received, Verified).
- * @property relatedKeyId ID des zugehörigen Schlüssels (falls vorhanden).
- * @property read true, wenn der Nutzer die Notification bereits gesehen hat.
- */
 data class Notification(
-    val id: Int,
+    val id: Int = 0,
     val message: String,
+    // z. B. REQUEST, RECEIVED, VERIFIED
     val type: NotificationType,
+    // Zu welchem Key bezieht sich die Notification?
     val relatedKeyId: Int?,
+    // schon gesehen?
     val read: Boolean = false
 )

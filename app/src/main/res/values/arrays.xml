@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Liste der verfügbaren Übertragungsmethoden für den Spinner -->
     <string-array name="transfer_methods">
         <item>NFC</item>
         <item>Bluetooth</item>

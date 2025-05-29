@@ -3,18 +3,22 @@
     <!-- App-Name -->
     <string name="app_name">KeySharing</string>
 
-    <!-- KeySharing-spezifische Strings -->
-    <!-- Share Key–Tab -->
+    <!-- Bottom-Navigation Tabs -->
+    <string name="title_share_key">Share Key</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- Share Key Screen -->
     <string name="own_key_header">Mein Public Key: keiner hinterlegt</string>
     <string name="transfer_method_prompt">Übertragungsmethode wählen</string>
     <string name="share_key_button">Key teilen</string>
-    <string name="title_share_key">Share Key</string>
 
-    <!-- Dashboard–Tab -->
+    <!-- Dashboard Screen -->
     <string name="dashboard_header">Empfangene Public Keys</string>
-    <string name="title_dashboard">Dashboard</string>
 
-    <!-- Notifications–Tab -->
+    <!-- Notifications Screen -->
     <string name="notifications_header">Benachrichtigungen</string>
-    <string name="title_notifications">Notifications</string>
+
+    <!-- HCE AID -->
+    <string name="hce_aid">F222222222</string>
 </resources>
